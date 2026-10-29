@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <table width="100%" border="0" cellpadding="20" cellspacing="0">
+        <tr>
+            <td width="70%" class="valign-top bg-light-gray" height="100%">
+        <h1><span class="red-text">🏛️Welcome to the Havad Engineering Library</span></h1>
+         <p><span class="brown-text"><b>Access thousands of engineering journals, textbooks, and research papers tailored for B.Tech and M.Tech students.</b></span></p>
+         <br>
+        <img src="./library.jpg" alt="Library Bookshelf image" width="100%">
+     </td>
+
+     <td width="50%" class="valign-top bg-blue">
+        <table>
+           <tr>
+          <td>
+   <h2>Member Login</h2>
+     <p><b><span class="purple-text">Please enter your credentials to access your account.</span></b></p>
+                            
+     <form action="./dashboard.html" method="GET">
+    <p>
+     <label for="userid">College ID / Roll Number:</label><br>
+    <input type="text" id="userid" name="userid" placeholder="e.g., HAV-EC-2026-042" required size="30">
+     </p>
+     <p>
+     <label for="password">Password:</label><br>
+     <input type="password" id="password" name="password" required size="30">
+    </p>
+      <p>
+   <label for="role">Select Role:</label><br>
+   <select id="role" name="role">
+      <option value="student">Student</option>
+     <option value="admin">Librarian / Admin</option>
+     </select>
+    </p>
+<p>
+<button type="submit">Login to Account</button>
+    </p>
+     </form>
+     </td>
+    </tr>
+     </table>
+
+     <hr>
+                
+     <p>
+     Don't have an account? <a href="./signup.html">Register here</a><br>
+    Just browsing? <a href="./viewbook.html">View Catalog as Guest</a>
+     </p>
+     </td>
+     </tr>
+    </table>
+</body>
+</html>

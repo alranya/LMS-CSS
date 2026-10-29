@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Issue Book (Admin)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <table width="100%" border="0" cellpadding="10" class="bg-light-gray">
+        <tr>
+            <td>
+                <h1><span class="purple-text">🏛️ Admin Counter: Issue Book</span></h1>
+                <p><b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Checkout counter to link textbooks directly to a student ID.</b></p>
+            </td>
+            <td class="text-right">
+                <a href="./viewbook.html">View Catalog</a> | 
+                <a href="./addbook.html">Add Book</a> |
+                <a href="./dashboard.html">Dashboard</a> |
+                <a href="./login.html">Logout</a>
+            </td>
+        </tr>
+    </table>
+
+    <hr>
+
+    <table width="100%" border="0" cellpadding="80" >
+        <tr>
+            <td class="valign-top bg-pink" width="50%">
+                <h2>Student Checkout Form</h2> <BR></BR>
+                <form action="./viewbook.html" method="GET">
+                    <p>
+                        <label for="student_id">Student Roll Number / ID:</label><br>
+                        <input type="text" id="student_id" name="student_id" placeholder="e.g., HAV-EC-2026-042" size="40" required>
+                    </p><BR></BR>
+                    <p>
+                        <label for="book_id">Book Accession ID / ISBN:</label><br>
+                        <input type="text" id="book_id" name="book_id" placeholder="e.g., ECE-101" size="40" required>
+                    </p>
+                    <p>
+                        <button type="submit" style="background-color: #0d9488; color: white; padding: 8px 15px; border: none; cursor: pointer;">Confirm Book Issue</button>
+                    </p>
+                </form>
+            </td>
+
+            <td class="valign-top bg-gray-alt" width="50%">
+                <h3>Counter Guidelines</h3>
+                <p>When issuing books to students at the physical library desk, please ensure:</p>
+                <ul>
+                    <li>Verify the student's physical <b>College ID Card</b> before confirming the issue.</li>
+                    <li>Ensure the book has available physical copies left in the catalog inventory.</li>
+                    <li>Standard borrowing duration is 14 days before renewals are required.</li>
+                </ul>
+                <hr>
+                <p>Need to add new inventory instead? <a href="./addbook.html">Go to Add Book page</a>.</p>
+            </td>
+        </tr>
+    </table>
+    
+    <br>
+    <hr>
+
+    <p class="text-center">
+        <small>© 2026 Havad Engineering College Library Portal. All rights reserved.</small>
+    </p>
+
+</body>
+</html>

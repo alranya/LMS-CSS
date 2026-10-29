@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+}
+
+h1 {
+    margin: 0;
+}
+
+
+.purple-text {
+    color: purple;
+}
+
+.red-text {
+    color: red;
+}
+
+.brown-text {
+    color: brown;
+}
+
+.active-status {
+    color: green;
+}
+
+
+.bg-light-gray {
+    background-color: #f4f4f4;
+}
+
+.bg-pink {
+    background-color: #F2E6E6;
+}
+
+.bg-blue {
+    background-color: #BDDAF2;
+}
+
+.bg-gray-alt {
+    background-color: #f9f9f9;
+}
+
+.bg-table-header {
+    background-color: #e2e2e2;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.valign-top {
+    vertical-align: top;
+}
